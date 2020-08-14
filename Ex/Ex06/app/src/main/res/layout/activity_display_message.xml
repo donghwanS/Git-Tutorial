@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- File > New > XML > Layout XML File -->
+<!-- 1) 새로 레이아웃 작성시 ID추가, LinearLayout인 경우 orientation 추가 -->
+<!-- 2) Activity 생성 -->
+<!-- 3) AndroidManifest.xml에 Activity 추가-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_display_message"
+    android:orientation="vertical">
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 작성순서 2. LinearLayout으로 변경, orientation 추가, fragment 작성 후 중간결과 실행("Red", "Green", "Blue" 확인)-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment_color_list"
+        android:name="com.example.ex11.ColorListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 작성순서 -> 4. 추가 : 화면아래 부분 결과 색상 프레그먼트 -->
+    <fragment
+        android:id="@+id/fragment_color"
+        android:name="com.example.ex11.ColorFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

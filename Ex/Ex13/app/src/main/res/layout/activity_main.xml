@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 작성순서 1-1 LinearLayout 변경, android:orientation="vertical" 추가-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!-- 작성순서 17) TabLayout 작성 -->
+    <!-- app : 외부라이브러리이므로 namespace를 별도로 app으로 지정함 -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="#ff0000"
+        app:tabTextColor="#0000ff" />
+
+    <!-- 1-2. ViewPager 작성 -->
+    <!-- 여러개의 프레그먼트나 화면들을 좌우로 슬라이딩 -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
