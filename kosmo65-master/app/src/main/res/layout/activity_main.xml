@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+       android:id="@+id/main_button1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="D-day"
+       android:textSize="20sp"
+       />
+    <Button
+        android:id="@+id/main_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="알람"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/main_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날씨"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/main_button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="반 구성원"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/main_button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제작자"
+        android:textSize="20sp"
+        />
+
+
+
+
+</LinearLayout>
